@@ -7,3 +7,5 @@ images/
 PlantVillage/
 
 query_backup.py
+
+.gitignore
