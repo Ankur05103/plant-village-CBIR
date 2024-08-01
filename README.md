@@ -15,6 +15,8 @@ The Plant Village dataset is a large collection of plant images used for trainin
 - `extraction.ipynb`: Jupyter notebook for feature extraction.
 - `extraction_backup.py`: Script for feature extraction.
 - `query.ipynb`: Jupyter notebook for querying the dataset.
+- `query_backup.py`: Functions for displaying images and finding similarities.
+- `cbir_app.py`: Streamlit app for querying and displaying results.
 - `requirements.txt`: Lists the dependencies required for the project.
 
 ## Installation
@@ -37,7 +39,11 @@ pip install -r requirements.txt
 
 **Querying**: 
 
-1. Open `query.ipynb`.
-2. Load the saved features.
-3. Perform queries to find similar plant images.
+1. Open a terminal and navigate to the project directory.
+2. Start the Streamlit app by running:
+```bash
+streamlit run cbir_app.py.
+```
+3. Open the Streamlit app in your web browser (http://localhost:8501).
+4. Upload the image in `.png` or `.jpeg` format.
 
